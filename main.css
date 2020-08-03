@@ -1,0 +1,161 @@
+body {
+    font-size: 67.5%;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background: url(img/background9.jpg) no-repeat fixed top center;
+    padding: 0;
+    margin: 0;
+    -webkit-background-size: 100% 100%;
+    -moz-background-size: 100% 100%;
+    background-size: 100% 100%;
+    -o-background-size: 100% 100%;
+}
+
+h1 {
+    color: black;
+    font-size: 2.0em;
+    margin: 0.5em 0 0.5em 0;
+    padding: 0;
+}
+h2 {
+    color:black;
+    font-size: 1.7em;
+    padding: 0px;
+    margin: 0.5em 0 0.35em 0;
+}
+p {
+    font-size: 1.2em;
+    font-weight: bold;
+    line-height: 1.4em;
+    color: black;
+    padding: 0px;
+    margin: 0px 0.5em 0.75em 0px;
+}
+
+ol {
+    font-size: 1.2em;
+    margin: 0 0 0 1.0em;
+    padding: 0 0 0 1.0em;
+}
+ol li {
+    margin: 0;
+    padding: 0 0 0.2em;
+}
+a, a:visited {
+    color:blue;
+}
+a:hover {
+    color:black;
+}
+hr {
+    padding: 0;
+    margin: 1.5em 1.5em 0.75em 0.5em;
+}
+
+.contentWrapper {
+    margin: 0 auto;
+    max-width: 1170px;
+    padding: 0 3.0em;
+}
+
+
+.clear { 
+    clear:both;
+    font-size: 1%;
+}
+
+header {
+    padding: 2.5em 0 0.5em;
+    margin: 0 0 2.0em;
+    background: url(img/background3.jpg) center 0px;
+}
+header h1 {
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color:red;
+    font-size: 8em;
+    margin: 0;    
+    text-shadow: 1px 2px 0 gold;  
+}
+
+
+
+header li {
+
+    font-weight: normal;
+    font-size: 1.8em;
+}
+
+nav li {
+    display: inline-block;
+    
+}
+nav li a, nav li a:visited {
+    text-decoration: underline;
+    color: black;
+    padding: 1em 1em;
+}
+nav li a:hover {
+    color: black;
+    background-color: red
+
+    }
+
+    #article {
+        width: 200px;
+        float: right;
+        position: relative;
+        padding: 1em 1em 1em 1em;
+        margin: 1.5em 0 3.0em 1.5em;
+        border:gold solid 5px;
+        background-color: floralwhite;
+       }
+  
+       .panel{
+        float: left;
+        position: relative;
+        width: 400px;
+        margin: 0 0.5em 2.0em 0.5em;
+        padding: 1.0em;
+        background-color: gold;
+        border: white solid 5px;
+       
+       }
+       .panel img.tourOption {
+        width: 100%;
+       }
+
+       #mainSection  {
+
+        text-align: center;
+
+       }
+   
+    footer {
+        height: 20px;
+        font-size: 1.4em;
+        background-color: goldenrod;
+        color: black;
+        text-align: center;
+        padding: 1em 1em;
+    }
+    footer #siteFooter {
+        display: inline-block;
+        list-style: none;
+        margin: 0 0 0 0.6em;
+        padding: 0;
+    }
+    footer li {
+        display: inline-block; 
+    }
+    footer li::before {
+        content: "| ";
+    }
+    footer a:visited {
+        color: red;
+        text-decoration: none;
+    }
+    footer a:hover {
+        color:white;
+        text-decoration: underline;
+    
+  
+    }
